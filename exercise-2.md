@@ -368,9 +368,7 @@ Initial job: dev-todolist-build
 
 
 
-Jenkinsfile:
-
-
+Jenkinsfile (develop):
 
 ```groovy
 // Global Vars
@@ -382,6 +380,16 @@ GITLAB_USERNAME = "lsirui"
 
 
 
+Jenkinsfile (master):
+
+```bash
+
+```
+
+
+
+
+
 Jenkins job:
 
 ```bash
@@ -390,6 +398,11 @@ Multibranch pipeline
 #Branch Sources
 Git
 https://gitlab-ce.apps.hkha-1.apac-1.rht-labs.com/lsirui/todolist.git
+
+# Scan Multibranch Pipeline Triggers
+Check Scan by webhook
+Trigger token: todolist
+
 
 ```
 
