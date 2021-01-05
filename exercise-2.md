@@ -368,7 +368,7 @@ Initial job: dev-todolist-build
 
 
 
-Jenkinsfile (develop):
+Jenkinsfile (develop & master):
 
 ```groovy
 // Global Vars
@@ -380,20 +380,33 @@ GITLAB_USERNAME = "lsirui"
 
 
 
-Jenkinsfile (master):
+Branches:
 
-```bash
+- master
+  1. prepare environment for master deploy
+  2. Node-build
+  3. node-bake
+  4. Node-deploy
 
-```
+* develop
 
+  1. prepare environment for develop deploy
 
+  2. Node-build
+
+  3. Node-bake
+
+  4. node-deploy
+
+     
 
 
 
 Jenkins job:
 
 ```bash
-Multibranch pipeline
+#Multibranch pipeline
+todolist-ci
 
 #Branch Sources
 Git
@@ -404,7 +417,15 @@ Check Scan by webhook
 Trigger token: todolist
 
 
+
+
 ```
+
+
+
+Test when change something on develop branch.
+
+To see if trigger pipeline run in Jenkins.
 
 
 
