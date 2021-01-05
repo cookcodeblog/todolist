@@ -382,3 +382,16 @@ GITLAB_USERNAME = "lsirui"
 
 
 
+Jenkins job:
+
+```bash
+Multibranch pipeline
+
+#Branch Sources
+Git
+https://gitlab-ce.apps.hkha-1.apac-1.rht-labs.com/lsirui/todolist.git
+
+```
+
+
+
