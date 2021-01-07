@@ -429,3 +429,9 @@ To see if trigger pipeline run in Jenkins.
 
 
 
+Open "BlueOcean" to see better pipeline view.
+
+
+
+
+
